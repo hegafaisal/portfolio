@@ -23,10 +23,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="freespace"
-        :style="{ backgroundImage: 'url(' + images.background1 + ')' }"
-      ></div>
+      <div class="freespace" :style="{ backgroundImage: 'url(' + images.background1 + ')' }"></div>
       <div
         class="h-content-project project"
         v-bind:style="[
@@ -59,10 +56,7 @@
         </v-container>
       </div>
 
-      <div
-        class="freespace"
-        :style="{ backgroundImage: 'url(' + images.background3 + ')' }"
-      ></div>
+      <div class="freespace" :style="{ backgroundImage: 'url(' + images.background3 + ')' }"></div>
       <div
         class="h-content-contact contact"
         v-bind:style="[
@@ -134,10 +128,7 @@
           </v-layout>
         </v-container>
       </div>
-      <div
-        class="freespace"
-        :style="{ backgroundImage: 'url(' + images.background4 + ')' }"
-      ></div>
+      <div class="freespace" :style="{ backgroundImage: 'url(' + images.background4 + ')' }"></div>
     </div>
     <v-footer class="blue-grey darken-4">
       <v-col class="text-center grey--text text--lighten-3">
@@ -260,8 +251,6 @@ export default class Home extends Vue {
 
   onMenu(link: string) {
     const el = this.$el.getElementsByClassName(link)[0];
-    console.log("Page");
-    console.log(el);
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
