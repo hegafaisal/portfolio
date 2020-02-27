@@ -50,7 +50,7 @@
               </p>
 
               <h4>Source For Preview:</h4>
-              <v-icon size="50" href="https://github.com/hegafaisal/sewain" target="_blank">mdi-git</v-icon>
+              <v-icon size="50" href="https://github.com/hegafaisal" target="_blank">mdi-git</v-icon>
             </v-flex>
           </v-layout>
         </v-container>
