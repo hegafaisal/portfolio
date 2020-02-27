@@ -5,7 +5,11 @@
       <v-spacer></v-spacer>
       <!-- <h2>{{title}}</h2>
       <v-spacer></v-spacer>-->
-      <v-btn outlined>
+      <v-btn
+        outlined
+        href="https://drive.google.com/file/d/1-C5ze3CY6OJnve9Y6EXXaZqMV1vxqWJv/view"
+        target="_blank"
+      >
         <v-icon>mdi-paperclip</v-icon>
         <span>Resume</span>
       </v-btn>
