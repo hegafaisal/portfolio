@@ -50,7 +50,10 @@
               </p>
 
               <h4>Source For Preview:</h4>
-              <v-icon size="50" href="https://github.com/hegafaisal" target="_blank">mdi-git</v-icon>
+
+              <v-btn icon href="https://github.com/hegafaisal" target="_blank">
+                <v-icon size="50">mdi-git</v-icon>
+              </v-btn>
             </v-flex>
           </v-layout>
         </v-container>
